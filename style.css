@@ -1,0 +1,76 @@
+body{
+    background-color:  #212f3d ;
+    color:  #03ab54 ;
+}
+
+#main-header {
+    justify-content: center;
+    border-bottom: solid 10px #03ab54;
+}
+
+#main-navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#high-scores, #timer{
+    border: solid black 5px;
+    border-radius: 15px;
+    margin: 20px 10px;
+    padding: 10px;
+}
+
+.container{
+    border: solid black 8px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 20px;
+    padding: 15px;
+}
+
+.container > *{
+    margin: 15px 15px;
+    align-self: center;
+}
+
+h1{
+    font-size: 225%;
+    font-weight: 700;
+}
+
+#main-section-content{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 125%;
+}
+
+button{
+    background-color: #03ab54;
+    color: white;
+    border: solid black 3px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 110%;
+    font-weight: 500;
+}
+
+#option1, #option2, #option3, #option4, #submit-score-btn, #clear-leaderboard-btn{
+    align-self: start;
+    margin: 10px;
+    padding: 5px;
+}
+
+#result{
+    text-align: center;
+    font-size: 140%;
+}
+
+input{
+    margin: 10px;
+    padding: 5px;
+}
