@@ -21,5 +21,8 @@ This is the webpage when viewing leaderboards
 
 Click start to take a beginner level javascript quiz. Once complete, you may upload your score to the local leaderboards. You may also play again.
 
-NOTE: the view high scores button only works while not taking the quiz or on the main screen, not while inputting name, viewing leader boards already, or taking the quiz
+NOTE: the view high scores button only works while not taking the quiz or on the main screen, not while inputting name, viewing leader boards already, or taking the quiz. ALso, you correctly read the leaderboard by going from middle to outwards.
 
+
+## Deployment
+https://family60.github.io/Javascript-Mini-Quiz/
